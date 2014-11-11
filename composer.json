@@ -1,0 +1,30 @@
+{
+	"name": "bulton-fr/bfw-savant3",
+	"type": "library",
+	"description": "Module Savant3 pour BFW",
+	"keywords": ["Template", "Savant3", "module", "bfw"],
+	"homepage": "https://github.com/bulton-fr/bfw-savant3",
+	"time": "2014-11-11",
+	"license": "LGPL-3.0",
+	"authors":
+	[
+		{
+			"name": "Vermeulen Maxime / Bulton",
+			"homepage": "http://www.bulton.fr",
+			"email": "bulton.fr@bulton.fr"
+		}
+	],
+	"support":
+	{
+		"email": "support@bulton.fr",
+		"issues": "https://github.com/bulton-fr/bfw-savant3/issues",
+		"source": "https://github.com/bulton-fr/bfw-savant3"
+	},
+	"require":
+	{
+		"php": ">=5.3.0",
+		"bulton-fr/bfw": "2.1.0",
+		"saltybeagle/savant3": "master"
+	},
+	"minimum-stability": "stable"
+}
