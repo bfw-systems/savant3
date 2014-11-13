@@ -23,8 +23,8 @@
 	"require":
 	{
 		"php": ">=5.3.0",
-        "bulton-fr/bfw": "~2.1",
-		"saltybeagle/savant3": "master@dev"
+		"bulton-fr/bfw": "~2.1",
+		"saltybeagle/savant3": "dev-master"
 	},
 	"minimum-stability": "stable"
 }
