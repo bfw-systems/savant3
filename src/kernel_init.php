@@ -8,5 +8,5 @@
  
 require_once($rootPath.'configs/bfw-savant3/config.php');
 
-$tpl = new Savant3(array('template_path' => array(path.$template_dir)));
+$tpl = new Savant3(array('template_path' => array($rootPath.$template_dir)));
 ?>
