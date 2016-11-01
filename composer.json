@@ -1,7 +1,7 @@
 {
 	"name": "bulton-fr/bfw-savant3",
 	"type": "library",
-	"description": "Module Savant3 pour BFW",
+	"description": "BFW template module with Savant3",
 	"keywords": ["Template", "Savant3", "module", "bfw"],
 	"homepage": "https://github.com/bulton-fr/bfw-savant3",
 	"time": "2014-11-11",
@@ -22,8 +22,8 @@
 	},
 	"require":
 	{
-		"php": ">=5.3.0",
-		"bulton-fr/bfw": "~2.1",
+        "php": ">=5.6.0",
+        "bulton-fr/bfw": "3.0.x-dev",
 		"saltybeagle/savant3": "dev-master"
 	},
 	"minimum-stability": "stable"
