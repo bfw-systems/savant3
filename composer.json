@@ -26,5 +26,5 @@
         "bulton-fr/bfw": "3.0.x-dev",
 		"saltybeagle/savant3": "dev-master"
 	},
-	"minimum-stability": "stable"
+	"minimum-stability": "dev"
 }
