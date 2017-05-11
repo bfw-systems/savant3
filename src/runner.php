@@ -1,9 +1,9 @@
 <?php
 
-$config = $module->getConfig();
+$config = $this->getConfig();
 
-if ($config->getConfig('initSavant3') === true) {
-    $module->savant3 = new \Savant3([
-        'template_path' => $config->getConfig('templateDir')
+if ($config->getValue('initSavant3') === true) {
+    $this->savant3 = new \Savant3([
+        'template_path' => $config->getValue('templateDir')
     ]);
 }
