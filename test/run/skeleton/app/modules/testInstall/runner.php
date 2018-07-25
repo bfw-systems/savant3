@@ -1,6 +1,10 @@
 <?php
 
-$tpl = \BFW\Application::getInstance()->getModule('bfw-savant3')->savant3;
+$tpl = \BFW\Application::getInstance()
+    ->getModuleList()
+    ->getModuleForName('bfw-savant3')
+    ->savant3
+;
 $tpl->display('test.tpl');
 
 //print_r($output = $tpl->fetch('test.tpl'));
