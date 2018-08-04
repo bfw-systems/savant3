@@ -2,7 +2,7 @@
 
 $tpl = \BFW\Application::getInstance()
     ->getModuleList()
-    ->getModuleForName('bfw-savant3')
+    ->getModuleByName('bfw-savant3')
     ->savant3
 ;
 $tpl->display('test.tpl');
