@@ -20,7 +20,10 @@ return [
      * @var boolean initSavant3 : Declare if module create a instance
      *  of Savant3 or not.
      * If declared to true, you can find instance with
-     * \BFW\Application::getInstance()->getModule('bfw-savant3')->savant3
+     * \BFW\Application::getInstance()
+     *  ->getModuleList()
+     *  ->getModuleByName('bfw-savant3')
+     *  ->savant3
      */
     'initSavant3' => true
 ];
