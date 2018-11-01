@@ -20,7 +20,7 @@
     },
     "require": {
         "php": "^7.0.0",
-        "bulton-fr/bfw": "3.0.0-rc.8",
+        "bulton-fr/bfw": "3.0.0-rc.9",
         "saltybeagle/savant3": "dev-master@dev"
     },
     "minimum-stability": "dev"
