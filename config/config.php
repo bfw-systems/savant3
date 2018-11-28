@@ -12,7 +12,7 @@ return [
      * @var string[] templateDir : Directory where is template files from root
      *  project directory.
      * 
-     * @suggest: ['/src/view/tpl']
+     * @suggest: [VIEW_DIR.'/templates']
      */
     'templateDir' => [''],
     
