@@ -12,9 +12,9 @@ return [
      * @var string[] templateDir : Directory where is template files from root
      *  project directory.
      * 
-     * @suggest: ['/src/view/tpl']
+     * @suggest: [SRC_DIR.'view/tpl']
      */
-    'templateDir' => [VIEW_DIR.'tpl'],
+    'templateDir' => [SRC_DIR.'view/tpl'],
     
     /**
      * @var boolean initSavant3 : Declare if module create a instance

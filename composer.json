@@ -19,9 +19,8 @@
         "source": "https://github.com/bulton-fr/bfw-savant3"
     },
     "require": {
-        "php": "^7.0.0",
-        "bulton-fr/bfw": "3.0.0-rc.10",
+        "bulton-fr/bfw": "~3.0.0-RC11@RC",
         "saltybeagle/savant3": "dev-master@dev"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
